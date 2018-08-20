@@ -2,7 +2,7 @@
 
 A node.js script to import data from Google Drive. Useful to use Google Spreadsheet data in static websites.
 
-This script is based on the [tutorial of Sprint Works](https://sprintworks.se/blog/data-from-google-drive-in-static-websites/).
+This script is based on the [tutorial of Sprint Works](https://sprintworks.se/blog/data-from-google-drive-in-static-websites/), but was rewrited in simple and basic Vanilla JS.
 
 This script connects to your spreadsheet, gets data and saves them in a `yaml` file to use with Jekyll.
 
@@ -31,12 +31,12 @@ Of course, you can edit the script to save the data in another format (`json`, `
 
 ### Node JS
 
-1. Move the `package.json`, `.babelrc` and `google-spreadsheet.js` files in your project
+1. Move the `package.json` and `google-spreadsheet-data.js` files in your project
 2. Install dependencies:
     ```shell
     $ npm install
     ```
-3. Setup the `google-spreadsheet.js` script:
+3. Setup the `google-spreadsheet-data.js` script:
     - Add your service account key file in `creds` variable.
     - Add the identifier of your spreadsheet in `doc` variable.
         - Example: https://docs.google.com/spreadsheets/d/1o_NWrDsVNSVU1jViexKQi08aI6h76fXrMIcvbT9faoM/edit#gid=0 : "1o_NWrDsVNSVU1jViexKQi08aI6h76fXrMIcvbT9faoM"
