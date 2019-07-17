@@ -2,7 +2,7 @@
     "name": "google-spreadsheet-data",
     "version": "1.0.0",
     "devDependencies": {
-        "google-spreadsheet": "^2.0.5"
+        "google-spreadsheet": "^2.0.7"
     },
     "scripts": {
         "google-spreadsheet": "babel-node google-spreadsheet.js"
